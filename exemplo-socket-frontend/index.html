@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exemplo Socket Front-end</title>
+  <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="form-area">
+    <form>
+      <input required type="text" placeholder="Seu nome de usuário" id="user-name" />
+      <input required type="text" placeholder="Sua mensagem" id="message" />
+      <input type="submit" value="Enviar" />
+    </form>
+  </div>
+
+  <div id="messages-area"></div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
